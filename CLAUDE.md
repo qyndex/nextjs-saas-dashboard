@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 SaaS Dashboard — Full-featured SaaS dashboard with authentication, role-based access control, and analytics. Built with Next.js, shadcn/ui, and Supabase.
 
-Built with Next.js 14, React 19, TypeScript 5.9, and Tailwind CSS.
+Built with Next.js 15, React 19, TypeScript 5.9, and Tailwind CSS.
 
 ## Commands
 
@@ -17,6 +17,8 @@ npm run build            # Production build
 npm run start            # Start production server
 npx tsc --noEmit         # Type check
 npm run lint             # ESLint
+npm run test             # Unit tests (Vitest)
+npm run test:e2e         # E2E tests (Playwright)
 ```
 
 ## Architecture
